@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(55, 55, 87);
+  
+}
+li{
+    float: left;
+  
+
+}
+li:last-child{
+    border-right: none;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  li a:hover:not(.active) {
+    
+    padding: 18px 20px;
+   bottom: 30px;
+   border-bottom: 1px solid white;
+
+  }
+  
+  .active {
+    background-color: rgb(55, 55, 87);
+  }
+  .header{
+    display: flex;
+    gap: 200px;
+    background-color: rgb(55, 55, 87);
+   
+  }
+  .head{
+    color: white;
+    padding-top: 80px;
+    padding-left: 80px;
+   
+  }
+  .pic img{
+    margin-left: 200px;
+  }
+  .but{
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 20px;
+    text-align: center;
+    box-shadow: 20px;
+    font: 1em sans-serif;
+    margin-top: 20px;
+    
+
+
+    
+  }
+  .but3{
+    height: 50px;
+    width: 150px;
+    border: 2px solid white;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 20px;
+    text-align: center;
+    font: 1em sans-serif;
+    background-color: rgb(55, 55, 87);
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+  }
+  .but:hover{
+    background-color: rgb(55, 55, 87);
+    color: white;
+  }
+  .but3:hover{
+    background-color: white;
+    color: black;
+ 
+
+  }
+  .icon{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding: 20px;
+    letter-spacing: 3px;
+
+  }
+  .catagory{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin: 0px 50px;
+    height: 400px;
+   
+  }
+.para{
+  position: absolute;
+  bottom: 20px;
+ color: red;
+  text-shadow: 40px;
+  padding: 20px ;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  padding-top: 170px;
+  text-align: left;
+  padding-left: 50px;
+  
+  
+}
+.but1{
+  position: absolute;
+  bottom: 0;
+ 
+
+}
+.products{
+  display: flex;
+  gap: 5px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.item h3 p{
+ padding-top: 20px;
+ 
+}
+.section{
+  display: flex;
+  gap: 150px;
+  margin-top: 30px;
+  background-color: rgb(55, 55, 87);
+ 
+}
+.raining{
+  color: white;
+  padding-top: 80px;
+  padding-left: 80px;
+  justify-content: space-between;
+ 
+ 
+}
+
+.but2{
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  font-size: 16px;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 20px;
+  text-align: center;
+  font: 1em sans-serif;
+  background-color: rgb(55, 55, 87);
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+}
+.but2:hover{
+  background-color: white;
+  color: black;
+
+
+}
+.shop{
+  margin-top:80px ;
+  margin-left: 80px;
+  background-color: white;
+  box-shadow: 20px 10px rgb(175, 175, 221);
+}
+.shop img{
+  border-radius: 12px;
+  box-shadow: 20px;
+}
+.footer1{
+
+ border: 2px solid rgb(188, 188, 204);
+  color: black;
+
+background-color: rgb(210, 210, 231);
+  width: 100%;
+  padding-left: 300px;
+  gap: 500px;
+  text-align: left;
+  height: 300px;
+  justify-content: space-around;
+ 
+}
+.foot{
+ 
+  color: black;
+  text-align: left;
+  padding: 20px;
+  background-color: rgb(226, 226, 231);
+
+}
+.all {
+  justify-content: space-around;
+  margin: 50px;
+}
+.facb{
+  font-size: 50px;
+  color: rgb(52, 66, 196);
+  border: 2px solid blue;
+  padding: 20px;
+  border-radius: 50%;
+}
+.twitter{
+  font-size: 50px;
+  color: rgb(13, 143, 67);
+  border: 2px solid rgb(20, 77, 23);
+  padding: 20px;
+  border-radius: 8px;
+
+}
+.youtube {
+  font-size: 50px;
+  color: red;
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+.glass{
+  font-size: 50px;
+  color: rgb(230, 199, 199);
+  border: 2px solid rgb(160, 160, 194);
+  padding: 20px;
+  border-radius: 8px;
+
+  
+}
+.footer-button{
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  font-size: 16px;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 20px;
+  text-align: center;
+  font: 1em sans-serif;
+  background-color: rgb(55, 55, 87);
+  
+  margin-top: 20px;
+}
+.footer-button:hover{
+  
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(55, 55, 87);
+ 
+
+  }
+
+
+
+
